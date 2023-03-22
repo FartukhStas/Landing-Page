@@ -1656,6 +1656,101 @@ margin-top: 30px;
 
 
 
+/* ADaaptive */
+@media screen and (max-width: 1200px) {
+	.header, .main, .content, .section-3, .footer {
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.header, .main, .content, .section-3, .footer {
+		width: 960px;
+	}
+  .intro {
+    background: url(img/YourImage.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    width: 100%;
+    height: 700px;  
+    margin-bottom: 60px;
+}
+.main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 100%;
+margin: 0 auto;
+padding-left: 55px;
+}
+.intro-titlesub {
+  padding-top: 490px;
+  padding-left: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.12px;
+  color: white;
+  margin-bottom: 10px;
+}
+.intro-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  max-width: 560px ;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+.intro-subtitle {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.55px;
+  color: white;
+  padding-left: 30px;
+  max-width: 283px;
+}
+.info-block {
+  width: 25%;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+	.header, .main, .content, .section-3, .footer {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header, .main, .content, .section-3, .footer {
+		width: 540px;
+	}
+  .content {
+    flex-wrap: wrap;
+  }
+  .row-content {
+    flex-wrap: wrap;
+  }
+  .col-4 { 
+    flex-wrap: wrap;
+  } 
+
+
+}
+
+@media screen and (max-width: 575px) {
+	.header, .main, .content, .section-3, .footer {
+		width: 100%;
+		padding: 0 15px;
+	}
+	
+}
+
+
 
 
 
